@@ -18,9 +18,10 @@
     <header>
         <h1>Welcome!</h1>
     </header>
-    {% for x in range(0,num): %}
-    <div class="squares" style="background-color: {{color}};"></div>
-    
-    {% endfor %}
+    <p>
+        {% for i in range (0,num)%}
+        <div class="squares" style="background-color: {{color}};"></div>
+        {% endfor %}
+    </p>
 </body>
 </html>
